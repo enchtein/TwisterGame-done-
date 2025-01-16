@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "additionalStr" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start an exciting adventure in\nthe world of twister, together with your friends. Become the best!"
+          }
+        }
+      }
+    },
+    "goTwist" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Go Twist"
+          }
+        }
+      }
+    },
+    "mainStr" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jolly Twister"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

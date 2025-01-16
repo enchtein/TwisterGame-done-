@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23094" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23084"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--On Boarding View Controller-->
+        <scene sceneID="s0d-6b-0kx">
+            <objects>
+                <viewController storyboardIdentifier="OnBoardingViewController" id="Y6W-OH-hqX" customClass="OnBoardingViewController" customModule="app_b_597" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Jolly Twister" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P3g-xt-xho">
+                                <rect key="frame" x="24" y="83" width="345" height="20.333333333333329"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Qgq-xE-HMc">
+                                <rect key="frame" x="0.0" y="377" width="393" height="393"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Qgq-xE-HMc" secondAttribute="height" multiplier="1:1" id="tB6-Kh-uvZ"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZCt-cH-MSi" customClass="CommonButton" customModule="app_b_597" customModuleProvider="target">
+                                <rect key="frame" x="24" y="794" width="345" height="34"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" systemColor="systemRedColor"/>
+                                </state>
+                                <connections>
+                                    <action selector="goTwistButtonAction:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="B38-cJ-nch"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Bu-HT-wR8">
+                                <rect key="frame" x="38" y="113.33333333333331" width="331" height="61"/>
+                                <string key="text">Start an exciting adventure in
+the world of twister, together with your friends. Become the best!</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="P3g-xt-xho" secondAttribute="trailing" constant="24" id="0tz-uT-gW8"/>
+                            <constraint firstItem="0Bu-HT-wR8" firstAttribute="trailing" secondItem="P3g-xt-xho" secondAttribute="trailing" id="29E-yx-0kc"/>
+                            <constraint firstItem="0Bu-HT-wR8" firstAttribute="top" secondItem="P3g-xt-xho" secondAttribute="bottom" constant="10" id="8kd-cd-CoU"/>
+                            <constraint firstItem="Qgq-xE-HMc" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" id="Ns8-So-Sna"/>
+                            <constraint firstItem="P3g-xt-xho" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="24" id="QhH-cb-RzM"/>
+                            <constraint firstAttribute="bottom" secondItem="ZCt-cH-MSi" secondAttribute="bottom" constant="24" id="T4J-Sb-KKE"/>
+                            <constraint firstItem="Qgq-xE-HMc" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="VD1-il-mdM"/>
+                            <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="ZCt-cH-MSi" secondAttribute="trailing" constant="24" id="gT0-Jk-bB5"/>
+                            <constraint firstItem="ZCt-cH-MSi" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="oQ0-7m-eop"/>
+                            <constraint firstItem="0Bu-HT-wR8" firstAttribute="leading" secondItem="P3g-xt-xho" secondAttribute="leading" constant="14" id="udF-ET-ITz"/>
+                            <constraint firstItem="P3g-xt-xho" firstAttribute="leading" secondItem="vDu-zF-Fre" secondAttribute="leading" constant="24" id="yPi-da-HTR"/>
+                            <constraint firstItem="ZCt-cH-MSi" firstAttribute="top" secondItem="Qgq-xE-HMc" secondAttribute="bottom" constant="24" id="zK2-Lx-WYy"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="additionalTitle" destination="0Bu-HT-wR8" id="QYu-so-uMX"/>
+                        <outlet property="goTwistButton" destination="ZCt-cH-MSi" id="Zeq-vW-LSw"/>
+                        <outlet property="goTwistButtonBottom" destination="T4J-Sb-KKE" id="q49-1t-ldq"/>
+                        <outlet property="goTwistButtonTop" destination="zK2-Lx-WYy" id="rVn-Yx-u7M"/>
+                        <outlet property="imageView" destination="Qgq-xE-HMc" id="wcS-e4-15b"/>
+                        <outlet property="imageViewLeading" destination="Ns8-So-Sna" id="Xpf-fB-iNY"/>
+                        <outlet property="mainTitle" destination="P3g-xt-xho" id="F5g-ma-h0A"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="132" y="-34"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,105 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "enjoyGameHStackTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enjoy your games!!!"
+          }
+        }
+      }
+    },
+    "firstRulesMsg" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "1. Only one arm or leg per circle! The first player to reach scores the circle. If you can't agree on who reached first, the referee decides. The referee's decision is not negotiable.\n\n2. Once you have made your movement, you may not move unless the referee gives you permission to do so in order to miss another player's limb.\n\n3. If all 6 circles of the same color are occupied, spin again.\n\n4. If the referee announces an arm/leg and color combination just performed by you, you must move your arm or leg to another circle of the same color. (If all 6 are occupied, spin again.)\n\n5. If your knee or elbow is placed on the mat, or you do not keep your balance, you are out!"
+          }
+        }
+      }
+    },
+    "secondRulesFirstVStackTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Other ways to play"
+          }
+        }
+      }
+    },
+    "secondRulesFirstVStackVSubStackSubTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A bunch of players? Divide into teams (pairs work best). Members of the same team can share the same circle. As soon as one player falls or touches the mat with a knee or elbow, the other team wins."
+          }
+        }
+      }
+    },
+    "secondRulesFirstVStackVSubStackTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Divide into teams"
+          }
+        }
+      }
+    },
+    "secondRulesSecondVStackSubTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Each team plays each team against each other.\nKeep a tally of wins and losses to see which team triumphs."
+          }
+        }
+      }
+    },
+    "secondRulesSecondVStackTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twister Championship"
+          }
+        }
+      }
+    },
+    "secondRulesThirdVStackSubTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Try a game of Twister against the clock. The winning team stays on the dunnage and draws new opponents until all teams have played. The last team standing wins."
+          }
+        }
+      }
+    },
+    "secondRulesThirdVStackTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Twister Elimination Game"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

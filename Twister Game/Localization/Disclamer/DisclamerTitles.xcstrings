@@ -1,0 +1,39 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "additionalTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "For the correct use of our application, you must have a mat for the game “Twister” or make it yourself. This application is an add-on, without a mat you will not be able to play."
+          }
+        }
+      }
+    },
+    "mainTitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disclamer"
+          }
+        }
+      }
+    },
+    "okey" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Okey"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
